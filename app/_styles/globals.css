@@ -37,3 +37,14 @@
   --rdp-background-color: theme("colors.accent.600") !important;
   margin: 0 !important;
 }
+.rdp-root {
+  --rdp-accent-color: #e0b341;
+  --rdp-accent-background-color: #304256;
+}
+.rdp-range_start .rdp-day_button {
+  background-color: #e0b341;
+}
+
+.rdp-range_end .rdp-day_button {
+  background-color: #e0b341;
+}

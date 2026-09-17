@@ -59,7 +59,7 @@ export default function UpdateProfileForm({ guest, children }) {
           className="px-5 py-3 bg-primary-200 text-primary-800 w-full shadow-sm rounded-sm"
         />
       </div>
-      <SubmitButton>Update Profile</SubmitButton>
+      <SubmitButton pendingLabel="Updating...">Update Profile</SubmitButton>
       <div className="flex justify-end items-center gap-6"></div>
     </form>
   );
