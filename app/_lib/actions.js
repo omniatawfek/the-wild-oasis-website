@@ -43,7 +43,7 @@ export async function updateGuest(formData) {
   revalidatePath("/account/profile");
 }
 
-export async function createBooking({ bookingData, formData }) {
+export async function createBooking(bookingData, formData) {
   const session = await auth();
   if (!session) throw new Error("You must be logged in");
   const newBooking = {
